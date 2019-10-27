@@ -31,3 +31,110 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    list-style-type: none;
+    display:flex;
+    align-items: flex-start;
+    background: white;
+    margin:0px;
+}
+
+.pozadie {
+   background-image: url("Images/pozadi.jpg");
+   background-size: 100%;
+   position: relative;
+   padding-left:35px;
+}
+
+.telefon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}   
+   
+h1 {
+    font-size: 75px;
+    font-weight: 500;
+    color: white;
+    margin:0px;
+    padding-top: 45px;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.patička {
+    background-color: #48418e;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+li {
+    padding: 15px 45px 15px 0px;
+    color: grey;
+}
+
+.selected {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+}
+
+.para{
+    margin: 0;
+}
+
+.stáhnout {
+    padding:10px 20px;
+    margin-right: 20px;
+    border: solid;
+    border-color: white;
+    color: white;
+    background: #48418e;
+    border-radius: 5px;
+}
+/* viem, že lepšie class bez diakritiky, ale niekde som neodolala */
+
+.info {
+    padding:10px 20px;
+    border: solid;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+}
+
+.tlacitka {
+    display:flex;
+    padding: 40px 40px 70px 0;
+}
+
+.options {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.a {
+    display:row;
+    text-align: center;
+    padding: 35px;
+}
+
+.icon {
+    width: 60px;
+}
+
+.moznosti {
+    padding:0;
+    color: indigo;
+    font-weight: 1000;
+    font-size:18px;
+}
